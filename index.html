@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Login form</title>
+  </head>
+
+  <body>
+    <form class="main-container">
+      <h1>Contact Us</h1>
+      <div class="names">
+        <div class="first-name">
+          <label> First name* </label>
+          <input type="text" />
+        </div>
+        <div class="first-name">
+          <label> Last name* </label>
+          <input type="text" />
+        </div>
+      </div>
+      <div class="email-address">
+        <labe2>Email address* </labe2>
+        <input type="email" id="email" name="email" requiured />
+      </div>
+      <div class="enquiry-section">
+        <label> Query type* </label>
+        <div style="display: flex; gap: 10px">
+          <div class="general-enquiry">
+            <button>
+              <input type="radio" name="general-enquiry"/>
+              <label> General Enquiry </label>
+            </button>
+          </div>
+          <div class="general-enquiry">
+            <button>
+              <input type="radio" name="general-enquiry"/>
+              <label> Support Request </label>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="email-address">
+        <label> Message </label>
+        <textarea cols="10" rows="4" style="border: 1px solid green;"></textarea>
+      </div>
+      <div style="display: flex; align-items: center; gap: 5px">
+        <input type="checkbox" />
+        <p> I consent to being contacted by the team* </p>
+      </div>
+      <button style="width: 100%; padding: 10px 5px; text-align: center; color: white; background-color: rgb(24, 85, 24);"> Submit </button>
+    </form>
+  </body>
+</html>
