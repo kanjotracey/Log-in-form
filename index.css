@@ -3,6 +3,7 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
+    padding: 0;
     justify-content: center;
     overflow: hidden;
     background-color: aquamarine;
@@ -66,4 +67,10 @@ input, button {
 }
 .general-enquiry label {
     margin-top: 4px;
+}
+
+@media (max-width: 600px) {
+    .main-container {
+        width: 85%;
+    }
 }
